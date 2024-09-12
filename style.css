@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+#timer, #score {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+#clickButton {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clickButton:hover {
+  background-color: #45a049;
+}
